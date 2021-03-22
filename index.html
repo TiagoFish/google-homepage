@@ -1,18 +1,71 @@
 <!DOCTYPE html>
 <head>
-    
 </head>
+<style>
+    body {
+        margin-top: 100px;
+    }
+    
+    .container_logo {
+        text-align: center;
+        padding: 100px 100px 25px 100px;
+          
+    }
+
+    #logo {
+        width: 250px;
+    }
+
+    .search {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        color: green;
+    }
+
+    .searchbox {
+        font-size: 30px;  
+        width: 650px;
+        color: rgb(187, 187, 187);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 50px;
+        height: 50px;
+    } 
+
+    .buttons {
+        text-align: center;
+        padding: 25px;
+    }
+
+    .button1 {
+        width: 150px;
+        height: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .button2 {
+        width: 150px;
+        height: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+</style>
     
     <body>
-        <h1>
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">    
-        </h1>
-        <div class="searchbox">
-            <label name="search">Search</label>
-            <input type="text" placeholder="write your word here...">
+        <div class="container_logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo" id="logo">    
+        </div>
+        <div class="search">
+            <label name="search"></label>
+            <input type="text" placeholder="" class="searchbox">
         </div>
         <div class="buttons">
-            <button type="submit">Pesquisa Google</button>
-            <button type="submit">Estou com sorte</button></div>
+            <button class="button1" type="submit">Pesquisa Google</button>
+            <button class="button2" type="submit">Estou com sorte</button>
+        </div>
             
     </body>
