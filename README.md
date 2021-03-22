@@ -1,0 +1,1 @@
+I want to be able to create a homwpage. Certainly I will do my best for it. I know it's not easy to assimilate all the information at once.
