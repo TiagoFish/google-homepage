@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 </head>
 <style>
-    body {
-        margin-top: 100px;
+    .gmail-and-images-link {
+        padding: 10px;
+        font-family: Arial;
+        float: right;
     }
     
-    .container_logo {
+    .logo {
         text-align: center;
         padding: 100px 100px 25px 100px;
-          
     }
 
     #logo {
         width: 250px;
+        padding-top: 100px;
     }
 
     .search {
@@ -41,7 +46,7 @@
     .button1 {
         width: 150px;
         height: 35px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: Arial, sans-serif;
         font-size: 15px;
         margin-right: 10px;
     }
@@ -49,23 +54,37 @@
     .button2 {
         width: 150px;
         height: 35px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: Arial, sans-serif;
         font-size: 15px;
         margin-left: 10px;
     }
 </style>
     
     <body>
-        <div class="container_logo">
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo" id="logo">    
+         <div class="gmail-and-images-link">
+            <a href="#" target="_blank">Sing in</a>
         </div>
-        <div class="search">
-            <label name="search"></label>
-            <input type="text" placeholder="" class="searchbox">
+        <div class="gmail-and-images-link">
+            <a href="#" target="_blank">Images</a>
         </div>
-        <div class="buttons">
-            <button class="button1" type="submit">Pesquisa Google</button>
-            <button class="button2" type="submit">Estou com sorte</button>
+        <div class="gmail-and-images-link">
+            <a href="#" target="_blank">Gmail</a>
         </div>
+
+       
+        <div class="container1"></div>
+            <div class="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo" id="logo">    
+            </div>
             
+            <div class="search">
+                <label name="search"></label>
+                <input type="text" placeholder="" class="searchbox">
+            </div>
+            
+            <div class="buttons">
+                <button class="button1" type="submit">Pesquisa Google</button>
+                <button class="button2" type="submit">Estou com sorte</button>
+            </div>
+        </div> 
     </body>
